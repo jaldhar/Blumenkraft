@@ -1,0 +1,27 @@
+---
+name: App-Blumenkraft
+version: 0.1
+author:
+  - 'Jaldhar H. Vyas <jaldhar@braincells.com>'
+abstract: a simple weblog
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  CGI: 3.12
+  Time::Piece: 0
+  perl: 5.01
+build_requires:
+  CGI: 3.12
+  Test::LongString: 0
+  Test::More: 0
+  Test::WWW::Mechanize::CGI: 0
+  Time::Piece: 0
+provides:
+  App::Blumenkraft:
+    file: lib/App/Blumenkraft.pm
+    version: 0.1
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

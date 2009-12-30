@@ -1,0 +1,17 @@
+severity = brutal
+
+[-Documentation::RequirePodAtEnd]
+
+[-Documentation::RequirePodSections]
+
+[-Documentation::PodSpelling]
+
+[-Miscellanea::RequireRcsKeywords]
+
+[Subroutines::ProhibitExcessComplexity]
+max_mccabe = 23
+                  
+[Variables::RequireLocalizedPunctuationVars]
+allow = %ENV
+
+[-ValuesAndExpressions::ProhibitMagicNumbers]
